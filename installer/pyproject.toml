@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "archinstaller"
+version = "0.1.0"
+description = "Leverages GenAI to setup and configure Arch Linux"
+authors = ["Your Name <you@example.com>"]
+license = "GPL 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kivymd = "^1.2.0"
+cx-freeze = "^7.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
