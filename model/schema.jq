@@ -1,0 +1,22 @@
+{
+  languages: [.languages[] | {value, description}],
+  keyboard_layouts: [.keyboard_layouts[] | {value, description}],
+  display_managers: [.display_managers[] | {value, description}],
+  window_managers: [.window_managers[] | {value, description}],
+  graphics_drivers: [.graphics_drivers[] | {value, description}],
+  bootloaders: [.bootloaders[] | {value, description}],
+  kernels: [.kernels[] | {value, description}],
+  package_managers: [.package_managers[] | {value, description}],
+  icon_themes: [.icon_themes[] | {value, description}],
+  system_themes: [.system_themes[] | {value, description}],
+  external_apps: [.external_apps[] | {value, description}],
+  file_systems: [.file_systems[] | {value, description}],
+  performance_optimization: [.performance_optimization[] | {value, description}],
+  security_settings: [.security_settings[] | {value, description}],
+  timezones: [.timezones[] | {value, description}],
+  networking: [.networking[] | {value, description}],
+  firewall_configs: [.firewall_configs[] | {value, description}],
+  systemd_service_configs: [.systemd_service_configs[] | {value, description}],
+  ssh_configs: [.ssh_configs[] | {value, description}],
+  logging_configs: [.logging_configs[] | {value, description}]
+}
