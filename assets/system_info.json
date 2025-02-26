@@ -1,0 +1,32 @@
+{
+  "hardware_info": {
+    "cpu": {
+      "model": "Intel(R) Core(TM) i9-14900HX"
+    },
+    "memory": {
+      "total": "31.71GB"
+    },
+    "gpu": {
+      "devices": [
+        "Intel(R) UHD Graphics",
+        "NVIDIA GeForce RTX 4070 Laptop GPU"
+      ]
+    },
+    "storage": {
+      "devices": [
+        {
+          "name": "SKHynix_HFS001TEJ9X115N",
+          "size": "953.86GB"
+        },
+        {
+          "name": "Microsoft Virtual Disk",
+          "size": "6.83GB"
+        },
+        {
+          "name": "GIGABYTE GP-GSM2NE3100TNTD",
+          "size": "953.86GB"
+        }
+      ]
+    }
+  }
+}
